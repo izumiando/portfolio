@@ -10,6 +10,9 @@ export default function Page() {
         {`Never thought this day would come, but here we are. 
         I bought this domain on GoDaddy while sitting in kweer cafe in Zurich in June 2024. 
         It's been nearly a year and I've finally set up a website for it. Let's see what kind of fun stuff we can do with this!`}
+        </p>
+      <p className="mb-4">
+        {`初めまして！和泉と申します！楽しいものを作って共有していきたいと思うのでよろしくお願いします〜`}
       </p>
       <div className="my-8">
         <BlogPosts />
