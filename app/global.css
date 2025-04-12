@@ -148,3 +148,34 @@ table {
 .title {
   text-wrap: balance;
 }
+
+
+/* adding new stuff for funzies */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #4100f5;
+    color: #cdf564;
+    color-scheme: dark;
+  }
+
+  .prose p,
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose a,
+  .prose strong,
+  .prose ul,
+  .prose ol,
+  .prose li,
+  .prose code,
+  .prose pre,
+  .prose table {
+    color: #cdf564 !important;
+  }
+
+  .prose pre {
+    background-color: #4100f5 !important;
+    border-color: #4100f5 !important;
+  }
+}
