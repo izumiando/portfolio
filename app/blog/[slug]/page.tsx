@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
