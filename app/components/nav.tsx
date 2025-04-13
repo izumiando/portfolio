@@ -13,7 +13,9 @@ const navItems = {
   '/events': {
     name: 'events',
   },
-
+  '/projects': {
+    name: 'digital projects',
+  },
 }
 
 export function Navbar() {
