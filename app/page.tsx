@@ -1,4 +1,4 @@
-import { BlogPosts } from 'app/components/posts'
+import SpotifyNowPlaying from 'app/components/spotify-now-playing'
 
 export default function Page() {
   return (
@@ -7,15 +7,11 @@ export default function Page() {
         Izumi Ando
       </h1>
       <p className="mb-4">
-        {`Never thought this day would come, but here we are. 
-        I bought this domain on GoDaddy while sitting in kweer cafe in Zurich in June 2024. 
-        It's been nearly a year and I've finally set up a website for it. Let's see what kind of fun stuff we can do with this!`}
+        {`Brought to you from Tokyo! - Nov 2025`}
         </p>
-      <p className="mb-4">
-        {`初めまして！和泉と申します！楽しいものを作って共有していきたいと思うのでよろしくお願いします〜`}
-      </p>
       <div className="my-8">
-        <BlogPosts />
+        <p className="mb-2">weirdly intimate</p>
+        <SpotifyNowPlaying />
       </div>
     </section>
   )
