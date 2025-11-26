@@ -9,7 +9,7 @@ export const metadata = {
       <section>
         <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Projects</h1>
         <p className="mb-4">
-          {`Will be writing about the projects I've worked on recently!`}
+          {`more in progress...`}
         </p>
         <h3 className="font-semibold text-2xl mb-8 tracking-tighter">Japan Guide</h3>
         <p className="mb-4">
