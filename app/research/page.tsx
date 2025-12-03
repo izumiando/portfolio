@@ -2,7 +2,7 @@ export default function Research() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Research
+        research
       </h1>
       <p className="mb-8">
         {``}
