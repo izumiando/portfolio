@@ -14,6 +14,24 @@ export default function Page() {
       
       <div className="mb-8">
         <h2 className="mb-2 text-xl font-semibold tracking-tight">
+          picklejuice picklejuice picklejuice
+        </h2>
+        <h3 className="mb-4 text-lg">
+          2025, watercolor on cotton paper
+        </h3>
+        <div className="rounded-lg overflow-hidden">
+          <Image
+            src="/picklejuice.png"
+            alt="picklejuice picklejuice picklejuice - watercolor on cotton paper"
+            width={800}
+            height={600}
+            className="w-full h-auto"
+          />
+        </div>
+      </div>
+      
+      <div className="mb-8">
+        <h2 className="mb-2 text-xl font-semibold tracking-tight">
           sleep deprived day dream
         </h2>
         <h3 className="mb-4 text-lg">
